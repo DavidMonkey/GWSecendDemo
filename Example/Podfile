@@ -1,4 +1,5 @@
 use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
 
 target 'GWSecendDemo_Example' do
   pod 'GWSecendDemo', :path => '../'

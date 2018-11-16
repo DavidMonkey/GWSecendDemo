@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		23C9DCE8A3C92949841047F4 /* Pods_GWSecendDemo_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF846837B80C59AEBDDE3A2F /* Pods_GWSecendDemo_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		AAC743BFFD21769182434FD4 /* Pods_GWSecendDemo_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 737BC1B8D13BC3F276002859 /* Pods_GWSecendDemo_Example.framework */; };
+		90518F3E2C64E849B153EACE /* Pods_GWSecendDemo_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DE52A35B885E9C4CA533D24 /* Pods_GWSecendDemo_Example.framework */; };
+		DB8170BE39969682C1451560 /* Pods_GWSecendDemo_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F8218E2A316C4D5E8D6D152 /* Pods_GWSecendDemo_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,9 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09166487C9F3C3067BB1D95C /* GWSecendDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GWSecendDemo.podspec; path = ../GWSecendDemo.podspec; sourceTree = "<group>"; };
-		2CB2C9A5A1CA32A3A7E3E0D6 /* Pods-GWSecendDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GWSecendDemo_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GWSecendDemo_Example/Pods-GWSecendDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4678D38841423C3A5CA03A7D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0B3CA7407A7C3DBD4907E94F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2928822DDE30012BAB550336 /* Pods-GWSecendDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GWSecendDemo_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GWSecendDemo_Example/Pods-GWSecendDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2A4982C126F2DCF902A75D30 /* Pods-GWSecendDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GWSecendDemo_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GWSecendDemo_Tests/Pods-GWSecendDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4F8218E2A316C4D5E8D6D152 /* Pods_GWSecendDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GWSecendDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* GWSecendDemo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GWSecendDemo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,12 +42,11 @@
 		607FACE51AFB9204008FA782 /* GWSecendDemo_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GWSecendDemo_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		737BC1B8D13BC3F276002859 /* Pods_GWSecendDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GWSecendDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		83E6FD49E0B804C944448A2D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D5F6B997416594E122C533C3 /* Pods-GWSecendDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GWSecendDemo_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GWSecendDemo_Tests/Pods-GWSecendDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D8A6915739141113388F5F0D /* Pods-GWSecendDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GWSecendDemo_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GWSecendDemo_Tests/Pods-GWSecendDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E741C5E7FDB3840942E819B9 /* Pods-GWSecendDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GWSecendDemo_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GWSecendDemo_Example/Pods-GWSecendDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EF846837B80C59AEBDDE3A2F /* Pods_GWSecendDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GWSecendDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76D27FAF8471F26651467575 /* Pods-GWSecendDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GWSecendDemo_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GWSecendDemo_Example/Pods-GWSecendDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7DE52A35B885E9C4CA533D24 /* Pods_GWSecendDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GWSecendDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		879861806F047173915414E2 /* Pods-GWSecendDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GWSecendDemo_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GWSecendDemo_Tests/Pods-GWSecendDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC91A29B62F00B22E5A70866 /* GWSecendDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GWSecendDemo.podspec; path = ../GWSecendDemo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F838596F131A8E82C371B6BB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAC743BFFD21769182434FD4 /* Pods_GWSecendDemo_Example.framework in Frameworks */,
+				90518F3E2C64E849B153EACE /* Pods_GWSecendDemo_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23C9DCE8A3C92949841047F4 /* Pods_GWSecendDemo_Tests.framework in Frameworks */,
+				DB8170BE39969682C1451560 /* Pods_GWSecendDemo_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,8 +76,8 @@
 				607FACD21AFB9204008FA782 /* Example for GWSecendDemo */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				683E192F0CEAEE4E13AA0683 /* Pods */,
-				E8E1BBC4A00E6D1BAB433EE4 /* Frameworks */,
+				F5CD66324D483DCA27A2D50B /* Pods */,
+				B8A186E2666344A951A3866E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,31 +132,31 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				09166487C9F3C3067BB1D95C /* GWSecendDemo.podspec */,
-				4678D38841423C3A5CA03A7D /* README.md */,
-				83E6FD49E0B804C944448A2D /* LICENSE */,
+				CC91A29B62F00B22E5A70866 /* GWSecendDemo.podspec */,
+				0B3CA7407A7C3DBD4907E94F /* README.md */,
+				F838596F131A8E82C371B6BB /* LICENSE */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		683E192F0CEAEE4E13AA0683 /* Pods */ = {
+		B8A186E2666344A951A3866E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E741C5E7FDB3840942E819B9 /* Pods-GWSecendDemo_Example.debug.xcconfig */,
-				2CB2C9A5A1CA32A3A7E3E0D6 /* Pods-GWSecendDemo_Example.release.xcconfig */,
-				D5F6B997416594E122C533C3 /* Pods-GWSecendDemo_Tests.debug.xcconfig */,
-				D8A6915739141113388F5F0D /* Pods-GWSecendDemo_Tests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		E8E1BBC4A00E6D1BAB433EE4 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				737BC1B8D13BC3F276002859 /* Pods_GWSecendDemo_Example.framework */,
-				EF846837B80C59AEBDDE3A2F /* Pods_GWSecendDemo_Tests.framework */,
+				7DE52A35B885E9C4CA533D24 /* Pods_GWSecendDemo_Example.framework */,
+				4F8218E2A316C4D5E8D6D152 /* Pods_GWSecendDemo_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5CD66324D483DCA27A2D50B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2928822DDE30012BAB550336 /* Pods-GWSecendDemo_Example.debug.xcconfig */,
+				76D27FAF8471F26651467575 /* Pods-GWSecendDemo_Example.release.xcconfig */,
+				879861806F047173915414E2 /* Pods-GWSecendDemo_Tests.debug.xcconfig */,
+				2A4982C126F2DCF902A75D30 /* Pods-GWSecendDemo_Tests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,11 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "GWSecendDemo_Example" */;
 			buildPhases = (
-				3D9CC401F82E677044158774 /* [CP] Check Pods Manifest.lock */,
+				8C8E47F7FCC92C0F52C5CB54 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				C8B23E26E75B5C7E7204AD57 /* [CP] Embed Pods Frameworks */,
+				172CC087A3F96080049D3A39 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,7 +185,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "GWSecendDemo_Tests" */;
 			buildPhases = (
-				D21A5B08B289D8A296682209 /* [CP] Check Pods Manifest.lock */,
+				971EC96B1E72F217ACDE4733 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
@@ -261,29 +261,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3D9CC401F82E677044158774 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GWSecendDemo_Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C8B23E26E75B5C7E7204AD57 /* [CP] Embed Pods Frameworks */ = {
+		172CC087A3F96080049D3A39 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -305,7 +283,29 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GWSecendDemo_Example/Pods-GWSecendDemo_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D21A5B08B289D8A296682209 /* [CP] Check Pods Manifest.lock */ = {
+		8C8E47F7FCC92C0F52C5CB54 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GWSecendDemo_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		971EC96B1E72F217ACDE4733 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -478,7 +478,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E741C5E7FDB3840942E819B9 /* Pods-GWSecendDemo_Example.debug.xcconfig */;
+			baseConfigurationReference = 2928822DDE30012BAB550336 /* Pods-GWSecendDemo_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GWSecendDemo/Info.plist;
@@ -493,7 +493,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2CB2C9A5A1CA32A3A7E3E0D6 /* Pods-GWSecendDemo_Example.release.xcconfig */;
+			baseConfigurationReference = 76D27FAF8471F26651467575 /* Pods-GWSecendDemo_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GWSecendDemo/Info.plist;
@@ -508,7 +508,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5F6B997416594E122C533C3 /* Pods-GWSecendDemo_Tests.debug.xcconfig */;
+			baseConfigurationReference = 879861806F047173915414E2 /* Pods-GWSecendDemo_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -530,7 +530,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8A6915739141113388F5F0D /* Pods-GWSecendDemo_Tests.release.xcconfig */;
+			baseConfigurationReference = 2A4982C126F2DCF902A75D30 /* Pods-GWSecendDemo_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
