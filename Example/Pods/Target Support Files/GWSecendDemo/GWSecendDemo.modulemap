@@ -1,0 +1,6 @@
+framework module GWSecendDemo {
+  umbrella header "GWSecendDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - GWSecendDemo (0.1.0)
+
+DEPENDENCIES:
+  - GWSecendDemo (from `../`)
+
+EXTERNAL SOURCES:
+  GWSecendDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GWSecendDemo: 3a7a4047128e2a980fc501eb9a9d5d6a6407a338
+
+PODFILE CHECKSUM: 06403c10a5e6b064503293ea5d92fa90990007c4
+
+COCOAPODS: 1.5.3
